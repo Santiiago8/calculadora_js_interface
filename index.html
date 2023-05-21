@@ -1,0 +1,76 @@
+<html>
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+  <header>
+    <h1 class="titulo">Calculadora</h1>
+  </header>
+  <div class="information_container">
+    <div class="information">
+      <p class="heading">Acerca de</p>
+      <div class="faqs">
+         <details>
+            <summary>Nombre Consultora</summary>
+            <p class="text">Prompt Enginering</p>
+         </details>
+         <details>
+            <summary>Integrantes</summary>
+            <p class="text_names">
+              <ul>
+                <li>Ceballos Palacios Santiago - EISI800</li>
+                <li>Vargas Lanzone Adrian - EISI745</li>
+                <li>Soteras Javier Elias - EISI2</li>
+              </ul>
+          </p>
+         </details>
+         <details>
+            <summary>Actividad</summary>
+            <p class="text">Tp N° 5, interfaces</p>
+         </details>
+      </div>
+   </div>
+  </div>
+  <div class="calculadora">
+    <span class="marca">CASIO</span>
+    <p class="modelo">SJL-BASIC</p>
+    <input type="text" id="display" readonly>
+    <br>
+    <button onclick="calculadora.addNumber('7')">7</button>
+    <button onclick="calculadora.addNumber('8')">8</button>
+    <button onclick="calculadora.addNumber('9')">9</button>
+    <button onclick="calculadora.setOperador('/')">÷</button>
+    <br>
+    <button onclick="calculadora.addNumber('4')">4</button>
+    <button onclick="calculadora.addNumber('5')">5</button>
+    <button onclick="calculadora.addNumber('6')">6</button>
+    <button onclick="calculadora.setOperador('*')">x</button>
+    <br>
+    <button onclick="calculadora.addNumber('1')">1</button>
+    <button onclick="calculadora.addNumber('2')">2</button>
+    <button onclick="calculadora.addNumber('3')">3</button>
+    <button onclick="calculadora.setOperador('-')">-</button>
+    <br>
+    <button onclick="calculadora.addNumber('0')">0</button>
+    <button onclick="calculadora.addNumber('.')">.</button>
+    <button onclick="calculadora.calcular()">=</button>
+    <button onclick="calculadora.setOperador('+')">+</button>
+    <br>
+    <button onclick="calculadora.clearDisplay()">C</button>
+  </div>
+
+  <script src="implementacionInterface.js"></script>
+</body>
+</html>
+
+
+

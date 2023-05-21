@@ -1,0 +1,132 @@
+
+body{
+  background: #181848;
+}
+.information_container{
+  display: flex;
+  justify-content: center;
+  float: left;
+  margin-left: 250px;
+}
+
+.information{
+  width: 320px;
+  margin: 100px auto;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+  float: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+.information .heading{
+  background: #7800CF;
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+}
+
+.faqs{
+  padding: 0px 20px 20px;
+  height: auto;
+  justify-content: space-around;
+}
+
+::-webkit-details-marker{
+  float: right;
+  margin-top: 3px;
+}
+
+details{
+  background: #f6f6f6;
+  padding: 10px 20px;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+details summary{
+  outline: none;
+}
+.text{
+  margin:10px;
+  justify-content: center;
+}
+.text_names{
+  margin:10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.titulo{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;;
+  font-weight: 900px;
+  font-size: 50px;
+  background-color: #304878;
+  color: #FFFFFF;
+  background: linear-gradient(89.3deg,#7204F1 -5.34%,#FF80FF 106.58% );
+}
+
+.calculadora {
+  max-width: 300px;
+  padding: 20px;
+  background-color: #E6F0FF;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #252F3D;
+  float: right;
+  margin-right: 300px;
+  margin-top: 60px;
+}
+
+.calculadora input{
+  width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.calculadora button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #E6F0FF;
+}
+
+.calculadora button:hover {
+  background-color: #F5F9FF;
+}
+.calculadora span{
+  font-family: 'Roboto', sans-serif;;
+  color: #FFFFFF;
+  font-size: 20px;
+  float: left;
+}
+.modelo{
+  font-family: 'Roboto', sans-serif;;
+  color: #FFFFFF;
+  font-size: 20px;
+  display: flex;
+  float: right;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
